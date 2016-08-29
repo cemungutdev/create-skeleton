@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Skeleton;
+namespace JLSalinas\CreateSkeleton;
 
 class SkeletonClass
 {

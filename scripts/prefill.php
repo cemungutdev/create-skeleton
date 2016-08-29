@@ -116,8 +116,6 @@ do {
 } while ($modify != 'y');
 echo "\n";
 
-exit;
-
 $files = array_merge(
     glob(PROJECT_DIR . '*.md'),
     glob(PROJECT_DIR . 'composer.json'),
