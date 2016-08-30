@@ -4,13 +4,19 @@
     "description": "Composer plugin to create a PHP package skeleton",
     "keywords": [
         "jotaelesalinas",
-        "create-skeleton"
+        "create-skeleton",
+        "thephpleague",
+        "skeleton",
+        "create",
+        "composer",
+        "package",
+        "packagist"
     ],
     "homepage": "https://github.com/jotaelesalinas/create-skeleton",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jos‚ Luis Salinas",
+            "name": "JosÃ© Luis Salinas",
             "email": "jotaelesalinas@example.com",
             "homepage": "https://github.com/jotaelesalinas",
             "role": "Developer"
@@ -43,7 +49,7 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         },
-        "class": "JLSalinas\\SkeletonPrefiller"
+        "class": "JLSalinas\\CreateSkeleton"
     },
     "config": {
         "sort-packages": true
