@@ -7,24 +7,22 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Composer plugin to create a PHP package skeleton.
+A composer plugin to create a PHP package skeleton.
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This plugin extends the idea behind [thephpleague/skeleton](https://github.com/thephpleague/skeleton), not only providing a base package structure to start working with, but also filling in some basic information.
 
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require jotaelesalinas/create-skeleton
+$ composer --global require jotaelesalinas/create-skeleton
 ```
 
 ## Usage
 
-``` php
-$skeleton = new JLSalinas\CreateSkeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+``` bash
+$ composer create-skeleton <project-name>
 ```
 
 ## Change log
@@ -43,11 +41,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Security
 
-If you discover any security related issues, please email jotaelesalinas@example.com instead of using the issue tracker.
+If you discover any security related issues, please DM [@jotaelesalinas](http://twitter.com/jotaelesalinas) instead of using the issue tracker.
 
 ## Credits
 
-- [Jos‚ Luis Salinas][link-author]
+- [JosÃ© Luis Salinas][link-author]
 - [All Contributors][link-contributors]
 
 ## License
