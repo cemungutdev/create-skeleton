@@ -4,7 +4,7 @@
  * @package: CreateSkeletonPlugin
  */
 
-namespace JLSalinas\Composer\CreateSkeleton\Commands;
+namespace JLSalinas\Composer\CreateSkeleton;
 
 use Composer\Command\BaseCommand;
 use Composer\Installer\PackageEvent;
